@@ -1,0 +1,47 @@
+# Core scraping tools
+beautifulsoup4==4.12.2
+requests==2.31.0
+lxml==4.9.3
+
+# For structured API consumption (e.g., NewsAPI or Reddit)
+httpx==0.27.0
+
+# HTML parsing + filtering
+html5lib==1.1
+
+# Browser automation (optional, fallback or rich scraping)
+selenium==4.20.0
+webdriver-manager==4.0.1
+
+# Optional headless browser support (for Selenium if needed)
+undetected-chromedriver==3.5.5
+
+# LLM API clients
+openai==1.34.0
+google-generativeai==0.5.2  # For Gemini
+
+# Environment/config handling
+python-dotenv==1.0.1
+
+# CLI & logging utilities
+rich==13.7.1
+loguru==0.7.2
+
+# Scheduling (for cron-like daily runs)
+apscheduler==3.10.4
+
+# Markdown formatting / preview (optional for UI or HTML output)
+markdown2==2.4.11
+
+# Optional UI / Preview tools
+streamlit==1.35.0
+flask==3.0.3
+
+# JSON, parsing, etc.
+ujson==5.9.0
+
+# Fallback scraping engine
+newspaper3k==0.2.8
+
+# System + time utils
+pytz==2024.1
